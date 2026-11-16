@@ -53,7 +53,7 @@
     "@storybook/vue3-vite": "^10.2.3",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/test-utils": "^2.4.6",
-    "happy-dom": "^20.4.0",
+    "happy-dom": "^21.0.4",
     "playwright": "^1.52.0",
     "rxjs": "^7.8.2",
     "sass-embedded": "^1.83.0",
