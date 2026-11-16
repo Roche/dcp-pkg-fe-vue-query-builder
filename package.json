@@ -1,0 +1,76 @@
+{
+  "name": "@open-dcp/vue-query-builder",
+  "version": "0.1.1",
+  "type": "module",
+  "main": "./dist/dcp-vue-query-builder.es.js",
+  "module": "./dist/dcp-vue-query-builder.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.8.0"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "type-check": "vue-tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@open-dcp/filter": ">=0.1.7",
+    "@open-dcp/i18n": ">=0.3.8",
+    "@open-dcp/styles": ">=0.1.27",
+    "@open-dcp/utilities": ">=1.1.2",
+    "@open-dcp/vue-styles": ">=0.2.1",
+    "rxjs": ">=7.8.2",
+    "vue": ">=3.5.13",
+    "vue-i18n": ">=11.1.3",
+    "vuetify": ">=3.8.0"
+  },
+  "dependencies": {
+    "@types/lodash-es": ">=4.17.12",
+    "lodash-es": ">=4.17.21",
+    "tslib": ">=2.8.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@open-dcp/filter": ">=0.1.7",
+    "@open-dcp/i18n": ">=0.3.8",
+    "@open-dcp/styles": ">=0.1.27",
+    "@open-dcp/utilities": ">=1.1.2",
+    "@open-dcp/vue-styles": ">=0.2.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@storybook/addon-docs": "^10.2.3",
+    "@storybook/vue3": "^10.2.3",
+    "@storybook/vue3-vite": "^10.2.3",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^20.4.0",
+    "playwright": "^1.52.0",
+    "rxjs": "^7.8.2",
+    "sass-embedded": "^1.83.0",
+    "storybook": "^10.2.3",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.6",
+    "vite-plugin-dts": "^5.1.2",
+    "vitest": "^4.1.12",
+    "vue": "^3.5.13",
+    "vue-tsc": "^3.3.14",
+    "vuetify": "^3.11.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Roche/dcp-pkg-fe-vue-query-builder.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
